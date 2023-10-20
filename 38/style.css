@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    /* color: orange; */
+}
+
+nav ul{
+    display: flex;
+    background-color: gray;
+}
+
+li{
+    list-style: none;
+    margin: 4px 10px;
+    color: white;
+    cursor: pointer;
+}
