@@ -1,0 +1,19 @@
+#clockDiv{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+}
+
+#clockSpan{
+    display: block;
+    width: 600px;
+    margin: auto;
+    height: 96px;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
