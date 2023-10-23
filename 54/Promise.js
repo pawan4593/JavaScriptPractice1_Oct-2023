@@ -1,6 +1,6 @@
 //Promise is just like the promise in the real world
 
-// Promise is the solution to callback hell
+// Promise is the solution to callback hell i.e. pyramid of doom
 // Promise is promise of code execution . 
 // The code either executes or fails in both the cases the , the subscriber will be notified .
 
