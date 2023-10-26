@@ -63,7 +63,7 @@ promise_race.then(value =>{
 
 //Similar to race except only for resolved .
 //What if I want only that promise which is resolved first .
-//Note - Waits for the fist promise to fulfill( and not rejected ) and its result becomes the outcome . Throws Aggregated Error if all teh promises are rejcted .
+//Note - Waits for the fist promise to fulfill( and not rejected ) and its result becomes the outcome . Throws Aggregated Error if all teh promises are rejected .
 let promise_any = Promise.any([p1 , p2 , p3]) ;
 promise_any.then(value =>{
     console.log(value) ;
