@@ -51,5 +51,5 @@ arr.then(value=>{
 })
 
 
-//Note - use await for that promise for which we want to wait
+//Note - use await for that promise for which we want to await
 //If we want to wait for the async function , then enclose that function into another async function and the await for it

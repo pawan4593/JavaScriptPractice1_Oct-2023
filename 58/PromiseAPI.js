@@ -54,7 +54,7 @@ promise_all_settled.then(value=>{
 }) ;
 
 //What if I want only one that is executed (resolved/rejected) first .
-//Note : Promise.race() - Waits for the first promise to settle and its result/error bcomes the outcome
+//Note : Promise.race() - Waits for the first promise to settle and its result/error becomes the outcome
 //If promise is rejected , then error occurs
 let promise_race = Promise.race([ p1 , p2 , p3 ]) ;
 promise_race.then(value =>{
