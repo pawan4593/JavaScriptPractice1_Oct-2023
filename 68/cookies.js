@@ -13,3 +13,4 @@ document.cookie = `${encodeURIComponent(key)} = ${encodeURIComponent(value)}` ;
 console.log(document.cookie);
 
 //Also there are options like path , expires etc.
+//Cookies are sent by browser to server on every request . This doesnt happen with local storage.
