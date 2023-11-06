@@ -19,9 +19,7 @@ response.then(value=>{
                         <p class="card-text">Duration is ${contests[item].duration}</p>
                         <p class="card-text">Site is ${contests[item].site}</p>
                         <p class="card-text">Status is ${contests[item].status}</p>
-                        <p class="card-text">In 24 Hours ?
-                        is ${contests[item].in_24_hours
-                        }</p>
+                        <p class="card-text">In 24 Hours ? is ${contests[item].in_24_hours}</p>
                         <a href="${contests[item].url}" class="btn btn-primary my-4">Visit Here</a>
                     </div>
                 </div>
