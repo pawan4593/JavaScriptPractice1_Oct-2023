@@ -26,6 +26,6 @@ p.__proto__ = {
 
 a.__proto__ = p ;
 
-a.run() ;//First run is seached in the a , if not present then it is searched in its __proto__
+a.run() ;//First run is searched in the a , if not present then it is searched in its __proto__ .__proto__ is used make an prototype for someone(object)
 
 console.log(a.name) ;
