@@ -9,11 +9,11 @@ class Animal extends LivingThings{
     }
 
     get name(){
-        return this._name
+        return this._name ;
     }
 
     set name(name){
-        this._name = name
+        this._name = name ;
     }
 
     fly(){
