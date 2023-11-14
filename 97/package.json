@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Pawan",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
